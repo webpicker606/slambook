@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+}
+#head{
+	border-bottom: 20px;
+}
+#reg-form{
+	padding-left: 100px;
+	text-align: left;
+	transform: lowercase;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background-image: url(web.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family:"Lucida Handwriting";
+	font-size: x-large;
+	color: black ;
+	border: none;
+}
+#red{
+	background-color: black;
+	color: white;
+	font-family:"Lucida Handwriting"
+	border:5px;
+}
+img{
+	padding: 0px  10px;
+}
+input[type=text] {
+	font-size: x-large;
+	border: 5px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+input[type=date] {
+	font-size: x-large;
+	border: 5px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+input[type=number] {
+	font-size: x-large;
+	border: 5px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+input[type=email] {
+	font-size: x-large;
+	border: 5px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+textarea{
+	font-size: x-large;
+	border: 5px solid black;
+    width: 20%;
+    border-radius: 5px;
+}
+input[type=button] {
+	position: center;
+	border-radius: 5px;
+}
+.container{
+	text-align: center;
+	margin-top: none;
+	background-color: none;
+}
+.btn{
+	border: 1px solid black;
+	background-color: none;
+	padding: 15px 20px;
+	font-size: 30px;
+	font-family:"Lucida Handwriting";
+	cursor: pointer;
+	margin-top: 5px;
+
+}
+.btn1{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom:none;
+	background-color: #F3F0F0;
+	color:black;
+	
+}
+.btn1:hover{
+	transition: 0.8s;
+    color: white; 
+            background: black; 
+            box-shadow: 0 0 100px black;	
+}
+input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: black;
+
+}
+label{
+	width: 240px;
+	display: inline-block;
+}
